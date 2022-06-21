@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Servicio de seteo de información por satélite","Validar respuesta de error cuando se setea el inexistente satélite <satellite>","FAILURE","2022-06-21T01:07:37.203503-05:00[America/Bogota]","0.0","1.66"

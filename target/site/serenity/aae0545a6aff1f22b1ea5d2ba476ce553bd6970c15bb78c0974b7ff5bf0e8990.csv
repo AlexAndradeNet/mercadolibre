@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Servicio de seteo de información para varios satélites","Validar correcto funcionamiento del servicio de seteo de varios satélites","SUCCESS","2022-06-21T01:07:33.712526-05:00[America/Bogota]","0.0","0.61"
+"Servicio de seteo de información para varios satélites","Validar respuesta de error cuando se setea información para satélites inexistentes","SUCCESS","2022-06-21T01:07:34.332313-05:00[America/Bogota]","0.0","0.59"

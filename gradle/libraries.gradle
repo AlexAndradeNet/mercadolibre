@@ -1,0 +1,57 @@
+ext{
+    serenityCoreVersion = '2.3.12'
+    cucumberVersion = '6.9.1'
+    junitVersion = '5.7.0'
+    aeonbitsVersion = '1.0.12'
+    gsonVersion = '2.8.6'
+    slf4jVersion = '1.7.30'
+    sonarScannerVersion = '3.3'
+    lombokVersion ='1.18.12'
+    jbossAeroGearVersion = '1.0.0'
+    JsonCompareVersion = '2.15'
+    JsonValidatorVersion = '3.1.1'
+    ApacheHttpClientVersion = '4.5'
+    JsonVersion = '20220320'
+    JedisVersion = '3.4.1'
+    JunitPlatformVersion = '1.0.0-M4'
+    JunitJupiterVersion = '5.0.0-M4'
+    JsonSimpleVersion = '1.1.1'
+    AssertjVersion = '1.7.0'
+    JsonPathVersion = '2.7.0'
+
+    libs = [
+        gson: "com.google.code.gson:gson:${gsonVersion}",
+        lombok: "org.projectlombok:lombok:${lombokVersion}",
+        aeonbits: "org.aeonbits.owner:owner-java8:${aeonbitsVersion}",
+        jsoncompare: "com.github.fslev:json-compare:${JsonCompareVersion}",
+        jsonvalidator: "io.rest-assured:json-schema-validator:${JsonValidatorVersion}",
+        jsonpath: "com.jayway.jsonpath:json-path:${JsonPathVersion}",
+        apachehttpclient: "org.apache.httpcomponents:httpclient:${ApacheHttpClientVersion}",
+        json: "org.json:json:${JsonVersion}",
+        cucumber: [
+            java: "io.cucumber:cucumber-java:${cucumberVersion}",
+            junit: "io.cucumber:cucumber-junit:${cucumberVersion}",
+            core: "io.cucumber:cucumber-core:${cucumberVersion}",
+        ],
+        log: [
+            slf4j: "org.slf4j:slf4j-api:${slf4jVersion}",
+            slf4jSimple: "org.slf4j:slf4j-simple:${slf4jVersion}"
+        ],
+        sonarqube: "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:${sonarScannerVersion}",
+
+        test: [
+            serenity: [
+                core: "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+                screenplay: "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+                cucumber6: "net.serenity-bdd:serenity-cucumber6:${serenityCoreVersion}",
+                junit: "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+                assured :"net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}"
+            ],
+            junit: [
+               junit : "junit:junit:${junitVersion}",
+               platform : "org.junit.platform:junit-platform-launcher:${JunitPlatformVersion}",
+               jupiter: "org.junit.jupiter:junit-jupiter-engine:${JunitJupiterVersion}",
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Servicio de información por satélite","Validar funcionamiento de error de consulta del servicio de información de un satélite inexistente","FAILURE","2022-06-21T01:07:31.185614-05:00[America/Bogota]","0.0","2.52"
+"Servicio de seteo de información para varios satélites","Validar respuesta consulta mal formada para seteo de info de varios satélites","FAILURE","2022-06-21T01:07:34.931235-05:00[America/Bogota]","0.0","0.58"
+"Servicio de seteo de información por satélite","Validar respuesta de error cuando se setea el inexistente satélite <satellite>","FAILURE","2022-06-21T01:07:37.203503-05:00[America/Bogota]","0.0","1.66"

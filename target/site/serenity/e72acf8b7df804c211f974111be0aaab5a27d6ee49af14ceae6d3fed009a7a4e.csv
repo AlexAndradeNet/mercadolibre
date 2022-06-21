@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Servicio de seteo de información por satélite","Validar correcto funcionamiento del servicio de seteo del satélite <satellite>","SUCCESS","2022-06-21T01:07:35.52841-05:00[America/Bogota]","0.0","1.67"
+"Servicio de seteo de información por satélite","Validar respuesta consulta mal formada para seteo de info del satélite <satellite>","SUCCESS","2022-06-21T01:07:38.868934-05:00[America/Bogota]","0.0","1.65"
