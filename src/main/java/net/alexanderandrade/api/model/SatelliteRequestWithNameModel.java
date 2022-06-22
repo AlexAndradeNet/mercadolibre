@@ -3,9 +3,7 @@ package net.alexanderandrade.api.model;
 public class SatelliteRequestWithNameModel extends SatelliteRequestModel {
 	String name;
 
-	public SatelliteRequestWithNameModel () {
-		this.name = "";
-	}
+	public SatelliteRequestWithNameModel () {}
 
 	public String getName () {
 		return name;

@@ -1,5 +1,8 @@
 package net.alexanderandrade.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SatelliteRequestModel {
 	Float distance;
 	String[] message;

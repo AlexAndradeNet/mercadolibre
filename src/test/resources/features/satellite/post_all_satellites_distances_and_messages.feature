@@ -11,7 +11,7 @@ Característica: Servicio de seteo de información para varios satélites
   Escenario: Validar correcto funcionamiento del servicio de seteo de varios satélites
     Dado que Han Solo quiere setear la información de varios satélites
     Cuando solicita cambiar información en varios satélites con los datos
-      | satellite | distance | msg1 | msg2 | msg3 | msg4    | msg5    |
+      #| satellite | distance | msg1 | msg2 | msg3 | msg4    | msg5    |
       | kenobi    | 100.0    | este |      |      | mensaje |         |
       | skywalker | 115.5    |      | es   |      |         | secreto |
       | sato      | 142.7    | este |      | un   |         |         |
@@ -22,7 +22,7 @@ Característica: Servicio de seteo de información para varios satélites
   Escenario: Validar respuesta de error cuando se setea información para satélites inexistentes
     Dado que Han Solo quiere setear la información de varios satélites
     Cuando solicita cambiar información en varios satélites con los datos
-      | satellite | distance | msg1 | msg2 | msg3 | msg4    | msg5    |
+      #| satellite | distance | msg1 | msg2 | msg3 | msg4    | msg5    |
       | vader     | 100.0    | este |      |      | mensaje |         |
       | $         | 115.5    |      | es   |      |         | secreto |
       | *         | 142.7    | este |      | un   |         |         |
