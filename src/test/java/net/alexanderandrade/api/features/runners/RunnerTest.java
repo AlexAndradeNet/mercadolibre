@@ -11,10 +11,10 @@ package net.alexanderandrade.api.features.runners;
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.AfterClass;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
@@ -24,7 +24,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     glue = {
       "net.alexanderandrade.api.features.steps",
       "net.alexanderandrade.api.features.utils"
-    })
+    },
+    plugin = { "pretty" }
+)
 class RunnerTest {
   private RunnerTest () {
     super();
