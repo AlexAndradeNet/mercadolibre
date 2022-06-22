@@ -1,15 +1,10 @@
 package net.alexanderandrade.api.model;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor @Getter @Setter
 public class SatelliteRequestWithNameModel extends SatelliteRequestModel {
-	String name;
-
-	public SatelliteRequestWithNameModel () {}
-
-	public String getName () {
-		return name;
-	}
-
-	public void setName ( String name ) {
-		this.name = name;
-	}
+	private String name;
 }
