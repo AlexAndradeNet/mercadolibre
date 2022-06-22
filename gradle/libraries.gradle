@@ -14,7 +14,7 @@ ext{
     JsonVersion = '20220320'
     JedisVersion = '3.4.1'
     JunitPlatformVersion = '1.0.0-M4'
-    JunitJupiterVersion = '5.0.0-M4'
+    JunitJupiterVersion = '5.7.2'
     JsonSimpleVersion = '1.1.1'
     AssertjVersion = '1.7.0'
     JsonPathVersion = '2.7.0'
@@ -32,6 +32,7 @@ ext{
             java: "io.cucumber:cucumber-java:${cucumberVersion}",
             junit: "io.cucumber:cucumber-junit:${cucumberVersion}",
             core: "io.cucumber:cucumber-core:${cucumberVersion}",
+            reporting: "net.masterthought:cucumber-reporting:5.7.1",
         ],
         log: [
             slf4j: "org.slf4j:slf4j-api:${slf4jVersion}",
@@ -48,9 +49,8 @@ ext{
                 assured :"net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}"
             ],
             junit: [
-               junit : "junit:junit:${junitVersion}",
-               platform : "org.junit.platform:junit-platform-launcher:${JunitPlatformVersion}",
-               jupiter: "org.junit.jupiter:junit-jupiter-engine:${JunitJupiterVersion}",
+               junit: "junit:junit:4.13.2",
+               vintage: "org.junit.vintage:junit-vintage-engine:${JunitJupiterVersion}",
             ]
         ]
     ]
